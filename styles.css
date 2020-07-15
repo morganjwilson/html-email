@@ -1,0 +1,73 @@
+img {
+  width: 100%;
+  margin: auto;
+}
+.logo {
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+.middle-block {
+  background-color: rgb(30, 36, 60);
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+}
+.logo-grid {
+  display: grid;
+  grid-template-columns: 20px 20px 20px 20px;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: flex-end;
+}
+.left-footer-block {
+  display: grid;
+  grid-template-columns: 300px;
+  padding: 10px;
+}
+.right-footer-block {
+  display: grid;
+  grid-template-columns: 300px;
+  float: right;
+  padding: 10px;
+  text-align: right;
+  list-style: none;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 400px 400px;
+}
+.contact-list {
+  list-style: none;
+}
+button {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+/*------------------ Email Styles --------------------------- */
+
+@media only screen and (max-width: 480px) {
+  .left-footer-block {
+    width: 100% !important;
+  }
+  .right-footer-block {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  img {
+    height: auto !important;
+    max-width: 480px !important;
+    width: 100% !important;
+  }
+
+  .middle-block {
+    font-size: 16px !important;
+    line-height: 125% !important;
+  }
+}
