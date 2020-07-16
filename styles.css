@@ -1,12 +1,18 @@
-img {
+body {
+  width: 800px;
+  margin: auto;
+}
+.logos {
   width: 100%;
   margin: auto;
 }
 .logo {
+  height: 100px;
+  margin-left: 100px;
+  align-self: center;
+}
+.product-image {
   width: 100%;
-  align-content: center;
-  justify-content: center;
-  margin: auto;
 }
 .middle-block {
   background-color: rgb(30, 36, 60);
@@ -48,6 +54,12 @@ button {
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
+}
+p {
+  color: gray;
+}
+li {
+  color: gray;
 }
 /*------------------ Email Styles --------------------------- */
 
